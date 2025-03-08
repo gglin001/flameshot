@@ -4,7 +4,7 @@ micromamba env create -n flameshot python=3.13
 
 micromamba activate flameshot
 
-micromamba install qt5
+micromamba install qt=5
 
 pip install cmake ninja
 
